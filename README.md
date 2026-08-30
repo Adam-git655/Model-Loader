@@ -4,7 +4,11 @@
 
 A 3D Graphics engine built using C++ and OpenGL, featuring a Unity styled editor with a dockable interface, dynamic object management, dynamic lighting, post processing, skybox rendering and more.
 
+Showcase Vid: https://www.youtube.com/watch?v=GVusRWVGUOo
+
 <img width="1906" height="977" alt="image" src="https://github.com/user-attachments/assets/8fc2b0a3-6de3-44f2-9351-afe4010c6348" />
+<img width="1902" height="983" alt="image" src="https://github.com/user-attachments/assets/32f66406-8c32-46e6-9d6f-e73da697e24b" />
+
 
 Resource: https://learnopengl.com/ by JoeyDeVries
 
