@@ -222,7 +222,7 @@ unsigned int Primitives::createScreenQuadVAO()
 
 unsigned int Primitives::createCubeUnlitVAO()
 {
-	unsigned int VBO, VAO, EBO;
+	unsigned int VBO, VAO, EBO;	
 	glGenVertexArrays(1, &VAO);
 	glGenBuffers(1, &VBO);
 	glGenBuffers(1, &EBO);

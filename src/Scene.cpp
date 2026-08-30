@@ -94,12 +94,12 @@ void Scene::DrawOpaque(Camera& camera, glm::mat4 projection)
 		glm::mat4 view = camera.GetViewMatrix();
 		obj->shader->setMat4("view", view);
 
-		if (obj->tag == "point_light")
+		if (obj->tag == "point_light"  || obj->tag == "plane")
 			glDisable(GL_CULL_FACE);
 
 		obj->Draw();
 
-		if (obj->tag == "point_light")
+		if (obj->tag == "point_light" || obj->tag == "plane")
 			glEnable(GL_CULL_FACE);
 	}
 }
